@@ -1,0 +1,33 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+.parcel-cache
+/dist
+/.pnp
+/build
+.pnp.js
+package-lock.json
+.docz
+
+# testing
+/coverage
+
+# production
+
+# misc
+.DS_Store
+.env.local
+.env.development
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/*
+/.vscode
+.history
+build/precache-manifest.b4d3bd5dbc64fb208ca3aed606a69fc4.js
